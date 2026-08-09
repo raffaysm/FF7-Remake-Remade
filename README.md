@@ -1,2 +1,2 @@
-# OG-FF7
+# FF7 Remake Remade
 Cloud, you're gay
