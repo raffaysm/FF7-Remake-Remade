@@ -1,2 +1,2 @@
 # FF7 Remake Remade
-Cloud, you're gay
+Fan made version of FF7 remake to learn Unity Engine
