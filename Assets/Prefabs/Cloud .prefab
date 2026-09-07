@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4399872333982290202}
   - component: {fileID: 4543451860530872480}
   - component: {fileID: 2726587377588538175}
-  - component: {fileID: 4360126992918858850}
+  - component: {fileID: 7317289593754073288}
   m_Layer: 0
   m_Name: 'Cloud '
   m_TagString: Untagged
@@ -83,7 +83,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.52, y: 1.67, z: 0.52}
   m_Center: {x: 0, y: 0.84, z: 0}
---- !u!114 &4360126992918858850
+--- !u!114 &7317289593754073288
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74d3309fb7666514a8fea9e49426f35f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
+  m_EditorClassIdentifier: Assembly-CSharp::CloudMovement
 --- !u!1001 &7180347816615000228
 PrefabInstance:
   m_ObjectHideFlags: 0
