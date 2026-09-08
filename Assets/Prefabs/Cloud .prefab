@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4399872333982290202}
   - component: {fileID: 4543451860530872480}
   - component: {fileID: 2726587377588538175}
-  - component: {fileID: 7317289593754073288}
   m_Layer: 0
   m_Name: 'Cloud '
   m_TagString: Untagged
@@ -83,18 +82,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.52, y: 1.67, z: 0.52}
   m_Center: {x: 0, y: 0.84, z: 0}
---- !u!114 &7317289593754073288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4120720967970714418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74d3309fb7666514a8fea9e49426f35f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CloudMovement
 --- !u!1001 &7180347816615000228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -154,10 +141,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6869627640154130159}
   m_SourcePrefab: {fileID: 100100000, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
 --- !u!4 &7218990062152441679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
   m_PrefabInstance: {fileID: 7180347816615000228}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8026770895925904885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
+  m_PrefabInstance: {fileID: 7180347816615000228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6869627640154130159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026770895925904885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d3309fb7666514a8fea9e49426f35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CloudMovement

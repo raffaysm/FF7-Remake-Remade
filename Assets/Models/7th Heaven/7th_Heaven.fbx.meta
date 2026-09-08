@@ -3,11 +3,1456 @@ guid: 71d344994a3a1b941a3f7cc3e87af5ac
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1065_Counter_01_7thSlum
+    second: {fileID: 2100000, guid: 4ea12813aab0a2845a9174ec573de6ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 767676FF_sRGB.png
+    second: {fileID: 2100000, guid: f4fc8c62fdb548b4da4fba47d0db71ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7th Lamps entrance
+    second: {fileID: 2100000, guid: c0cca80ae639b63478d1443ddee57adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG0212_00_Body_C.png
+    second: {fileID: 2100000, guid: b819999c473c56d4b82993cec7c5b914, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BG0213_00_Body_C.png
+    second: {fileID: 2100000, guid: f7f25fcc752fe944b93bce28873717a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_27_1stAvenue
+    second: {fileID: 2100000, guid: f2059d8758d990f48baca85c10e2d74d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_KitchenLight_E_01_7thSlum
+    second: {fileID: 2100000, guid: 9e563a8b53b2c9d42946be29c90b3722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_PowerPole_E_02_7thSlum
+    second: {fileID: 2100000, guid: bcc7ab5124f24d34dbf8b956f3403a1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_PowerPole_E_02_7thSlum.001
+    second: {fileID: 2100000, guid: b921825b0de707d4b9db4aad13138da3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_StreetLight_E_01_7thSlum
+    second: {fileID: 2100000, guid: c1a0a7dbf9d00844e8efaf6e653a87ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neon Blue
+    second: {fileID: 2100000, guid: 46a42df54c133744fb9efc03edd13846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neon Light Blue
+    second: {fileID: 2100000, guid: 941e9632baf771c4ababb94ba9ef5a04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neon Red
+    second: {fileID: 2100000, guid: 9115ade35ed56cb44963307a2f12121f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neon Yellow
+    second: {fileID: 2100000, guid: 52b9b5ec0b140cd44ac44c57b3fd735d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SpotLightO_02_7thSlum
+    second: {fileID: 2100000, guid: 1de42f223525f664bb1d8d7a6f2f54c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StreetLightA_01_7thSlum
+    second: {fileID: 2100000, guid: c0448ec219923ad4c85a9ebd204cd486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_0.001
+    second: {fileID: 2100000, guid: dd5967cdec69d2d4198cb12aca52daa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_1001_Attachment_12_A_8thAvenue
+    second: {fileID: 2100000, guid: 9ff2ccbc522ee564085c369de6ae8024, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_1067_Counter_01_7thSlum
+    second: {fileID: 2100000, guid: 1e72260b017ec394483fdef653449289, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_130_SeventhHeavenSecondFloor_7thSlum
+    second: {fileID: 2100000, guid: 5913296bced4acd4e884789cf516a3d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_141_SignboardA_01_7thSlum
+    second: {fileID: 2100000, guid: 5a614e4d110a75d4bb876a45c6fb5155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_150_Store_04_7thSlum
+    second: {fileID: 2100000, guid: 61910a4ced382514cacf96cd6a467dff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_154_Neon_02_7thSlum
+    second: {fileID: 2100000, guid: bc13de0d11aabec4180e390100a610d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_155_Neon_03_7thSlum
+    second: {fileID: 2100000, guid: e8f4b6fc4140db444a9f2b731ef8ebd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_172_Neon_09_7thSlum
+    second: {fileID: 2100000, guid: 3cd0f781018e0864cac51baffa1f7b0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_1_BuildingLight_02_LOD_8thAvenue
+    second: {fileID: 2100000, guid: c80cfd21066a3984f9bada7bee31e124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_20_JohnnysHouse_01_7thSlum
+    second: {fileID: 2100000, guid: 7e6b982cd967cdb4ca7db72958bf65ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_392_HouseG_01_7thSlum
+    second: {fileID: 2100000, guid: 4ca47175bd3143c4488414f2dacdaa5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_61_Bike_01_7thSlum
+    second: {fileID: 2100000, guid: 2919d638d34cffd4bb6267f3fc293bdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_66_BuildingLight_03_8thAvenue
+    second: {fileID: 2100000, guid: 245b76a6f8168b046b46a6bfb5727ca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_684_PowerPole_01_7thSlum
+    second: {fileID: 2100000, guid: 69349c3d5bb9f7d44ac16da5114ca23c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_685_PowerPole_01_7thSlum
+    second: {fileID: 2100000, guid: 6cb84376e8f517c4890f1f10a91cf597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_74_Neon_07_7thSlum
+    second: {fileID: 2100000, guid: 6054e94fe84cd6d449a69181ea0afa61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_754_Rubble_03_7thSlum
+    second: {fileID: 2100000, guid: 0f1e748f1276caf4e958c25a9df26a94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_84_BG0271_00
+    second: {fileID: 2100000, guid: da024dcdd685a004892e6cda482cfff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_85_Light_09_7thSlum
+    second: {fileID: 2100000, guid: 2387044728869034593b51e48d328dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_91_PowerPole_06_7thSlum
+    second: {fileID: 2100000, guid: 7cbbb272369876040a10a81fd2df45cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Submesh_92_PowerPole_06_7thSlum
+    second: {fileID: 2100000, guid: 35f0692af391a3641a0a3f8fcca4d1b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Attachment_08_8thAvenue_C.png
+    second: {fileID: 2100000, guid: d026340adb7d6794588566e7a28404fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Attachment_09_8thAvenue_C.png
+    second: {fileID: 2100000, guid: b9ab3e813c4bc144b8f368130bd1ab94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Attachment_11_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 76b2740ceada2a4479af36e7d2716d2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Attachment_12_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 1a4bf6fe00ccb7940a9ab1cb034d0673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Attachment_13_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 70e273a6e89a0574b9178693086cb671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Audio_01_7thTown_C.png
+    second: {fileID: 2100000, guid: 9ffd2e85b8d2d2d4b83049033e466b92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_AvaBoard_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 75703d4b1b8c36b4484d70a8480feca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Bag_03_6thAvenue_C.png
+    second: {fileID: 2100000, guid: e5b136f038ea4264cadbd1ca6fb5fc52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Bag_04_6thAvenue_C.png
+    second: {fileID: 2100000, guid: a5ac8f5d240c52149b40f145ac60284e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BarWM_01_B_6thAvenue_C.png
+    second: {fileID: 2100000, guid: b4ad1bed0756d844d9371c1d07649105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BarWM_01_C_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 74ca59b5d27f0dc4baafac4397c17f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BarrackPartsMetal_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: c07444e6948c3634295e9a861508532a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BarrackPartsWood_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: d4c1efbe6c8fe4b49a2e3a9b935623c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BarrelSmall_7thSlum_C.png
+    second: {fileID: 2100000, guid: 83f08880ca79af14aae3af688fe47499, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Basket_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 3cda352277bc1ef4b9c65ac092488251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BigPipeA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: a66bcdc4ee11bb54eaf84903ccf1007c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Black_01_7thGrave_C.png
+    second: {fileID: 2100000, guid: 059d39fc72c44374c805b965a9a996cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BookShelf_01_7thTown_C.png
+    second: {fileID: 2100000, guid: 8149ce42f132fb84d9617534dedbdf54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Books_01_7thTown_C.png
+    second: {fileID: 2100000, guid: c72cb8c83a18e80438cc5ce0c586546f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BoxA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 8ba558751fea3ce43b7384b6601fd360, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Bubble_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 2db86f9a302bf364ab4d36661a6b0cc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_BuildingComponents_03_5thAvenue_C.png
+    second: {fileID: 2100000, guid: 8b394c39d0e421c4aa9b5b9c0cc007ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Camera_01_7thTown_C.png
+    second: {fileID: 2100000, guid: 05cbd029ebc67114495696dc22625046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Cap_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: d436da752b6ab4640b7949982c66a589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_CargoBoxA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 72c280cadbf392e45a2e0c602507648e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Carpet_04_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 9794ccdb8f89ceb43b75eaab65426d79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Chair_06_6thAvenue_C.png
+    second: {fileID: 2100000, guid: bcd8b404db3c5ad4a9bcc8a9fd2a2798, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Chair_21_5thAvenue_C.png
+    second: {fileID: 2100000, guid: 8a2d2333ea3a04e439f526b2d92ce1d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ChestDrawerItems_01_7thTown_C.png
+    second: {fileID: 2100000, guid: 033c6e93907aeed49b093409441b3a47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ChopStickStand_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 5787eb6ad1a9b0246b19930d9e44534c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Clock_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 50f81f5117c3c324882f7681f12f8ed3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ClothCover_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: b050d3b60c1692e41b92c5562b3e5133, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Cloth_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 4c985c54477c3ca4a83baef903cf4b93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Cloth_04_7thSlum_C.png
+    second: {fileID: 2100000, guid: e071fc1abb62fca4f894b34a4f689eaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ComcretePatch_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 72e2316a906b4d14294a39d64c8d94e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ComcretePatch_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 5449f4d489c49f044a343403ff63d452, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ConcreteFloor_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 1f56ae35c33931747a5f1cd78555f0a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ConcreteWallA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: e9d180f528ea583448e8667ae43c7aec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ConcreteWallB_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: fb96afb0892f5264ba81aeba850f8862, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ConcreteWallHuge_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: f9a3d7faf9bc9ce468618b5cdca3c540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ConcreteWallHuge_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: e843f9c52e399804fa77ff9ba32d1c65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Container_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: e17dd55d2b2ec454eb10d6c26433df4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_CorneoLight_04_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 7d9d3c5e1bc5fb249a9cf4dbbad58562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_CorneoLight_04_6thAvenue_C.png.002
+    second: {fileID: 2100000, guid: 490645e1e77bada48bb8398a137124ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_CounterDoor_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 087bd5214e3fb914cb05ee560f5e4063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Counter_IntSevHe_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 5486c089c9e0d954d9a4c0f6ebecbaaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Counter_IntSevHe_7thSlum_C.png
+    second: {fileID: 2100000, guid: b6c02de5269115046a560d1068143570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_CurbStone_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 7955a4bf31dbb2745a5957a73e59e612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Cushion_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: d28c50971a6bb8f46978f03431ffb6de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_CuttingBoard_01_CdRoom_C.png
+    second: {fileID: 2100000, guid: cee740e8af7bc5b43aabc5d6d5aaafa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DartsSignboard_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 1bcc735621d871e40a4c35d8f70cb0eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Darts_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 68a0337b37cb23348bd68252dd5e876c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DebrisC_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: 5d0201a88b830d8499135213b79e3738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DebrisN_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 4390eb365d3534b4cb53cbd52636b94b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DebrisParts_01_7thSlum_C
+    second: {fileID: 2100000, guid: d1313d8fa04a1ce4bb70d208ac15c246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DebrisParts_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 92e1782c6bf662d4a82ea4c8ff8ef971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DebrisQ_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 1f094b02ff96b134bb3101cf4eb2a592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DishSet_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: a6f4777ebd93b6a4487107fa252e035f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Dispenser_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: a69bcf98eb46eea45a5e32f7de88536a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Dispenser_02_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 4cdc47e61a57226468ca32b18dd9ab84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DoorLR_IntSevHe_7thSlum_C.png
+    second: {fileID: 2100000, guid: 309029f9f2053754ab1c9d25bc65e626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_DrainageA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 57c093455f38a2648ae237713bfb11b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Drum_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 006ed87cea17bc74d86113cf4183a47e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Drum_04_7thSlum_C.png
+    second: {fileID: 2100000, guid: 9aae945cc572fc64c98301f129dc1f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Dustpan_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 9ba01f12fcc9d4c40a3b002e73c4138a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Dustpan_02_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 4895c57fa48c6a84582a454ff08004d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_FacilityCode_03_1stAvenue_C.png
+    second: {fileID: 2100000, guid: 5dabbc7540c5e3943a6660be5234949b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_FacilityInTrashcan_01_1stAvenue_C.png
+    second: {fileID: 2100000, guid: ae7af1f6c81f72647811f8c2c1fde349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_FacilityLight_02_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 69c08e329ec042a4fa2d9c854bdc6375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_FacilityOutMater_01_1stAvenue_C.png
+    second: {fileID: 2100000, guid: e5eb92fb0e41fe6409f7f49eeb77dcbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Facility_Ladder_02_B_6thUnder_C.png
+    second: {fileID: 2100000, guid: ed78777a2b9c3234996823cc26b6b3f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Fan_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 2a38ef88dbbe9554e9ef09dcbf559aa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_FenceA_04_7thSlum_C.png
+    second: {fileID: 2100000, guid: fdceec25cbbc5454896c840b674682cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_FenceB_04_7thSlum_C.png
+    second: {fileID: 2100000, guid: 66e2621a3b8b08242a8d7814f48b5481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_FenceMesh_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 4e5744bd36a3a144aadd2afea51b2ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Fence_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 1a24f1e0d2a0ca347bc556125f5c16f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_FlagSet_01_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 016fd6678ff7f9b47a0a962237f86ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Furniture_01_D_7thown_C.png
+    second: {fileID: 2100000, guid: cf226bcc68371d84f811fe4f92cf9894, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Graffiti_02_4thTunnel_LOD_C.png
+    second: {fileID: 2100000, guid: 9664b99a899abf847b8e03d62a2ce863, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_GroundEnt_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 94615b0a52b52714b8542f2829a77a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_GroundPattern_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 9a47e50d26548694dba86e6ee07122eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_GroundSet_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: 2c715c64d14fa6549a6f36903e652698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_HammerRack_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 9b27f122ceeb2ce4f8feca010648251b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_HandTruck_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 42671cde8589df84b8a40c94a24013f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Hat_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: d08533a6174a6994994b792a7317f568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_HayAalphaPlane_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: a39c93acbe8f7df41a763b96bca4ff16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Hay_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: 21e599211a684d64e8f26a25fd62b534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_HouseG_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: e17213967ed7c7c449ab114d931dc2a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_HouseK_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 5516989294cb0f3409c3ed8a55333c70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_HouseK_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: b3c9ce2cff20e7549b90e7c8ac782f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_HouseS_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 9cfc52b8f82c771428ddce8b2a5e3965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_House_03_A_7thTown_LOD_C.png
+    second: {fileID: 2100000, guid: d618cc8131d84a04394907cd4c3f41db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_HvnMachineA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 94022a5a61545904b8790e7731827a1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_IronSheetWall_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: fe391f1dad2553c4fb34edf53a6a88ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ItemShopProp_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: b97a83ac9fe400e459a0cb7b102dcce1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ItemShopProp_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: d361472acde7ab048ade9329eff9c47d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ItemWMBoiler_01_A_6thAvenue_C.png
+    second: {fileID: 2100000, guid: bda7fcb6faed26a479ff3f7505675dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ItemWMBoiler_01_B_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 3603d7087ec7be34fb8e389f2f3f4fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JohnnyHousePipeTin_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: dc6aa4a47ade5654f9909cfa774f47a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JohnnyHouseProp1_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 0e498d70f3e1f1942a7fcc57125c9c30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JohnnyHouseProp2_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: c699fddd2a96792429e53fcdabf5d075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JohnnyHouseTin2_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: c33c1866e32d4f74691b108078111888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JohnnyHouseWallFloor_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 1759faeba2d003d47a91da5b3580b374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JuiceCase_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 56bc1f321d25df24e948cf1d793d4a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JukeBox_01A_7thSlum_C.png
+    second: {fileID: 2100000, guid: 9b391afb8f10fe042a48db73e7bdd285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JukeBox_01B_7thSlum_C.png
+    second: {fileID: 2100000, guid: d8257b792b8bb9541b502adcf31dcd56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JunkStoreProp_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 62c5ca3e62cab7d4faab23ad5189c439, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_JunkStoreProp_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: f2794abcd0740194d9abc5915589325c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Kettle_02_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 3c9115bcdb17eb746be4329345275849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_KicellBox_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: cde1b8ae960f9524ab9ac066a5c99a17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Kitchen_IntSevHe_7thSlum_C.png
+    second: {fileID: 2100000, guid: 3feeeaca1d840b54180794c07d31a90d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LargeDebriA_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: b9fb985ffa18ea34ea842495003c3859, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LargeDebriA_02_5thAvenue_C.png
+    second: {fileID: 2100000, guid: 8b5ae6341175472439ac25748aedc4bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LargeDebriB_02_5thAvenue_C.png
+    second: {fileID: 2100000, guid: b7e586decfd6cff4d8e25cbb8128c3d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LargeDebriD_02_5thAvenue_C.png
+    second: {fileID: 2100000, guid: b5e0d83d27d11e24193f91af6197b163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LargeDebri_02_A_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 6f889debf95b8e44bb519483a1d69aa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LightSet_01_A_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 4ba5ad9c90fe71c49981fb666513adfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LightSet_01_B_8thAvenue_C Emmisive
+    second: {fileID: 2100000, guid: 17f1ed003a33b5845a09f184adbc0905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LightSet_01_B_8thAvenue_C.png
+    second: {fileID: 2100000, guid: a2265c6c121393744a7dc5562901e278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_LightStandA_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 949970ea657dbef47832964c7c7c1e47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Light_02_Emissive_1stAvenue_C.png
+    second: {fileID: 2100000, guid: 73ef619910b05774592a1077f2fe748b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Light_03_1stAvenue_C.png
+    second: {fileID: 2100000, guid: 65f9d8180fc05c2489969dbd3e4786c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Light_04_Emissive_1stAvenue_C.png
+    second: {fileID: 2100000, guid: 7c7d0ae587247ad4fbb5568b548fdd3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Light_09_7thSlum_C.png
+    second: {fileID: 2100000, guid: d425cc976ea901848a9c4144cb3c320e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Light_27_1stAvenue_C.png
+    second: {fileID: 2100000, guid: 2da7d41da365725439716117f9a58c94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_M_AntiqueRegister_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 445e84055e9c8be44a53dc1213a7a1f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_M_Cart_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 9c5bafa9867d8274d9c1b1eb71e80369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_M_Kettle_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: f95462b596c54394c862e62a0e2aabe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_M_Mosquitographer_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: aa5930abecde60a4a995877d54256dba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_M_Scale_02_6thAvenue_C.png
+    second: {fileID: 2100000, guid: f7981580ee3dd0d48a61716008a37bb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Mat_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: fd151382c0e703a4cbf223fb696b44e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialAttacheA_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 6026de0c06eb78440b0457a56ffe32ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialBottlebox_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 4331fb4986b62bb409a9d39cb0391525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialBucket_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 35fa3bb9986af114db6eb036c51bc3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialDrumreel_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 9f4fc33dfb7a4c743bc72b67d52071f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialGarbagecan_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 197a32921e0e1e44e960288b942df36f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialLight11_01_A_6thUnder_C.png
+    second: {fileID: 2100000, guid: 8009c6e10a7bab94e9b3a2ee2611e780, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialLight11_01_B_6thUnder_C.png
+    second: {fileID: 2100000, guid: 385182f7151e9864084c5ecf4563c29d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialMug_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 7743b265444ab624dac83ba37e46ba5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialNotebook_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: d7d6d2e3ecdcddb49a83227064fa74d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialOilcan_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: d380f0e5c4d620b47877f995d7b5fae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialPail_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 82cd8dff77d00b742866f80e5ca8539c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialPolytank_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 500a84fcb964f604194b35ce12016af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialShelf_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: e34403f6768b02f4bad62af5e4795d82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialSteamB_04_6thUnder_C.png
+    second: {fileID: 2100000, guid: 08f5a07b49111a745b250b37059c6c59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialSwitch_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: b08f1f5f753ce5648a4f6b7c5dd93971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialTable_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 0028e771ab4c6a347b95402a67545691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialToolbox_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: c20eb8fcccce96d468bdf3cfb3c41983, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MaterialToolbox_03_6thUnder_C.png
+    second: {fileID: 2100000, guid: f05e3391c8e78384984c3525aa100865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Material_02_NblTown_C.png
+    second: {fileID: 2100000, guid: ea239ef6c50a1fb4cba931a0bc0cce4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MountainA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 6702e51fe762495449e46d05d52d0ed3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_NewsPaper_01_4thTunnel_C.png
+    second: {fileID: 2100000, guid: 34aecc6188ccbe7449154d58fe9a9bd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_NewsPaper_01_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 7401e4fd8bfeac243b143c34639a536a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ObstructionLight_01_7thTown_C.png
+    second: {fileID: 2100000, guid: 3f9125d4f83dd2c4f83e9299fa19cb22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_OldWoodHouseRock_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: cd9098dcd46bdba419d85e697a3156ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_OutPartsA_7thSlum_C.png
+    second: {fileID: 2100000, guid: 70bce5bf2719ddc4e843e81e265c0381, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_OutSteelFrame_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: c4fa4ba1574a9b441bc091c3803bfada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_OutWall_7thSlum_C.png
+    second: {fileID: 2100000, guid: abefc47112c79684184869fd6c8b2617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Pants_02_6thAvenue_C.png
+    second: {fileID: 2100000, guid: c9b146f594072c94e811b83a19006f7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PartsA_IntSevHe_7thSlum_C.png
+    second: {fileID: 2100000, guid: 9c5e311dab49f854da958853c113bd19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PartsB_IntSevHe_7thSlum_C.png
+    second: {fileID: 2100000, guid: eb3cc94cd61bee44181c3f7548799e89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PinballGrass_01_7thSlum_A.png
+    second: {fileID: 2100000, guid: 6e48fac256775444094f155f4c3d04f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PinballLift_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 30b3db31164abbb4d883d83c449a20aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Pinball_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 8d5dd834f4ac657438e0b8d36879ab7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Pinball_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 27e695359750f374d9cc5c3e873e4b5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PipeB_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 920a0395e6cca4941adfeb3026036fe9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Pipe_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 41ef5e6d41929d944a4d68a9fe86b8da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Pipe_43_1stAvenue_LOD_C.png
+    second: {fileID: 2100000, guid: dc6c65662e708294fa208b89b9718658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Pitcher_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 19545a777bb3cd3488e7df456799d96b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PlateMetalA_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: c9ba3c6716cf889418fd7239c761cfb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PotSet_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 0ac0f0fc6177fc4448df43a1ea3023b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Pot_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 4af2770441abd0e40984d58cc13f7ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Potion_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 04f086e290d604c41b8c6599b2cc47d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PowerPole_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: a24e4d56f70a1314b9e2d8977c45ffd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_PowerPole_01_7thSlum_C.png.001
+    second: {fileID: 2100000, guid: 546204e478148224eb020e6b2d1190d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Radio_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: f8f8685c8f4927a4c90e9ee3576916cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Railing_01_7thSLUM_C.png
+    second: {fileID: 2100000, guid: 6639ae158b44ca44ebb1f062573cac33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_RoofA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: b75a1b258a8f2954fa0f399184e056ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_RoofB_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: e622fe5240f04c94da6494bc94385c35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_RoofC_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 032057c6b33b75a448baa06bf132b71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_RoofD_01_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: d671dfad44b957d409b38b2637eb2dea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Rubble_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 2e40be572765fa94cbd2541ca448f5e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Rubble_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 4771614f076c6ce458cb86e0a3a84cb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Rubble_03_7thSlum_C.png
+    second: {fileID: 2100000, guid: e66564deee1683c4b83dda4409e4f66f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Rug_01_5thAvenue_C.png
+    second: {fileID: 2100000, guid: d3f659f4dc99180408b4e81e22ddc8d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Scale_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 148cec8d1283ff142b8495b2f514f386, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ScrapCar_04_7thSlum_C.png
+    second: {fileID: 2100000, guid: a455b36e9c1144645bc430b04fe7e52d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Seasoning_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: f228c660fcb7f5f46b4c994a90a53bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Sec3rd_7thSlum_C.png
+    second: {fileID: 2100000, guid: 7565cff7d249eab48a390866eb121eb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SevHevBackDoor_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 3dd6b423dab747f4a9a201767f40a54d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SevHevCeiling_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: d7ff2e30757c2f741a78710a15f1ebb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SevHevFlooring_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 9168cab9b47900b43b5ff523a3a854d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SevHevUGwall_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: c4257f2fef236654195b46c3b9a653a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SevHevWall_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 2e7c915e3b02466478444f76a3fbc27a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SevHevWall_01_7thSlum_C.png.001
+    second: {fileID: 2100000, guid: 51cbced8ba530874ab64d320d7d6c1a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SevHevWall_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 5bf6f0ccfd2789c469f2f71ebb4db106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SevHevWall_03_7thSlum_C.png
+    second: {fileID: 2100000, guid: 6491a690f4e5a544da7af1e8fcdd97e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SeventhHeavenCurtain_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: cd043e7972f5d3046825662f24f15f7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SeventhHeavenSignboard_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: b824128b6dcc33f47a640021a8b05765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SeventhHeavenSignboard_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: c498b9618aaf38449a495510b9ed8520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SewingMachine_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 757ef8938ddfaf749ad6e05ce36ce2cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ShelfItems_01_7thTown_C.png
+    second: {fileID: 2100000, guid: acd3564c13b13894c93db0d07273d30f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Shelf_91_5thAvenue_C.png
+    second: {fileID: 2100000, guid: 7154a4f0709dcfa4a8ad2d7a6b30c0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Shoes_04_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 614467f1329cde14aa7baf812e42135c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Shopboard_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 213e9abc86aa69544b56e0966c5fb346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SignBoard_01_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 34ddddeb794d11747bad5e78ff23fad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SignboardA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 995abfef2d3a9f34597dd44d4ddb318e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Snacks_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 9d539692cb6c912448cbf5244d1df63e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Speaker_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: e325df7ef5d344d46a854dd37b60c350, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_SpotLight_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: f9f7ff6e74caa5547926935106415a94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_StandingSignboard_02_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 49e07e9469e9f73489a2bbd93d04604d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Step_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: e0b75d9c23331234aaddd8aaee0e0467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Store_02_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 86df2a36670c5744baf799b13c2b9efd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Store_02_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 0eed9d99bb579c542b217c87bcc1104f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Store_04_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: edad976524de10f43aec09e850fc3b8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Store_05_7thSlum_C.png
+    second: {fileID: 2100000, guid: fb926a95e2d35d34a94b113117d7ea68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Store_06_7thSlum_C.png
+    second: {fileID: 2100000, guid: 18b93b5012a5b4a46ad6494e1d7557ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Store_08_7thSlum_C.png
+    second: {fileID: 2100000, guid: aab3f38721844f44e95a221b88ac7ce3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_StreetLampA_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 1faac195c99540d41814da65c05267e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_T_Box_01_7thTown_C.png
+    second: {fileID: 2100000, guid: e77d49b407f5ced4aa4d3f303ed57fe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TableOld_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 135487a964481a54db4cca03b038acf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Table_03_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 6aaaf5b68d5991d4f84bcea0c34965d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TerraceMetal_7thSlum_C.png
+    second: {fileID: 2100000, guid: 105405c051ddc6d4fa938ce88d735bdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TerraceWoodUP_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 11cc960b61aa0a14981fce10c9749c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TerraceWood_7thSlum_C.png
+    second: {fileID: 2100000, guid: 5b84b0f27487ce349815f0dac0354068, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TinTunnelBase_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 08141d439ecfdb242b419a35a28006ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TinTunnelCloth_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: f88e927a27dd86a4391ceec6d288a70c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TinTunnelStairs_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: dec50d11fe788f64f81bb6b53ac86593, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TinTunnelStairs_02_7thSlum_C.png
+    second: {fileID: 2100000, guid: 05a465ba734c71c4aa478153db5d9bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TinTunnelWall_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 51ab952af7a2db24f919c04f35251654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TinTunnel_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: f89131687306404489a6f9a3d32d5c3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_TissueBox_01_7thTown_C.png
+    second: {fileID: 2100000, guid: 780fe049cd2d95a419c937297b6d6c08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ToolBox_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 264d5ebbe35558443b547dc153f58d97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_ToolBox_02_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 51bac4e91ba05be449025c7b20d615e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Tools_01_NblTown_C.png
+    second: {fileID: 2100000, guid: 1e9e370a1c585484888a381afc4c80c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Towel_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: dac3a3084f3efed41abc61bc032c400d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Trash_01_6thUnder_C.png
+    second: {fileID: 2100000, guid: 957b222c788f7ba42a6d947e339e1afb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Tray_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: f6e920637dda5594cb18a8e40e4dd613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Wallet_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 54233ded99c9b1e4a99f9d29902d3b06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Wallet_02_6thAvenue_C.png
+    second: {fileID: 2100000, guid: ca8bc34a91f1a5145a9c3448f49a041c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Waterline_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: f91631009c6913548b88b357ff7c0647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_Weight_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 51e57516e8aa5fc419b04bc33057ba39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_WindowBlock_01_8thAvenue_C.png
+    second: {fileID: 2100000, guid: 556e89534292d884198708c5ec58f3c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_WindowLight_01_7thSlum_C.png
+    second: {fileID: 2100000, guid: 22b570d8000ecd14895f2436413b8917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_WoodFence_04_7thSlum_C.png
+    second: {fileID: 2100000, guid: 4318552ebfd82754f97f925da49eb7e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_WoodMix_01_NblTown_LOD_C.png
+    second: {fileID: 2100000, guid: f49d8c5c30027f848b8cb212fc0d1bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_WoodenBox_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 05b6330478357c14885cf918223dcc9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_WoodenBox_01_6thAvenue_C.png.001
+    second: {fileID: 2100000, guid: 38923ff921f61c744a4b608d75efd2a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_WoodenBox_01_6thAvenue_C.pngT_WoodenBox_01_6thAvenue_C.pn
+    second: {fileID: 2100000, guid: 254040de1bb7aab43a8ca496c34137a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_WoodenBox_01_6thAvenue_C.pngT_WoodenBox_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: 4ea85949b83452648949b5ef56e28be5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_cmnBanner_01_6thAvenue_C.png
+    second: {fileID: 2100000, guid: a3aed8de710e2e84ba05f410c0ff9e6d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
-    materialSearch: 1
+    materialSearch: 0
     materialLocation: 1
     searchTexturesGlobally: 0
   animations:
