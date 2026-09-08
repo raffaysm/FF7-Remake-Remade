@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &49710179
 Light:
   m_ObjectHideFlags: 0
@@ -650,7 +650,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1453043773871479701, guid: 71d344994a3a1b941a3f7cc3e87af5ac, type: 3}
---- !u!1001 &1560621477
+--- !u!1001 &7699980783112508122
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -662,21 +662,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Cloud '
       objectReference: {fileID: 0}
-    - target: {fileID: 4120720967970714418, guid: 5dc1590e87dbe0347a68c6a4432c631b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4399872333982290202, guid: 5dc1590e87dbe0347a68c6a4432c631b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.66
+      value: -10.197799
       objectReference: {fileID: 0}
     - target: {fileID: 4399872333982290202, guid: 5dc1590e87dbe0347a68c6a4432c631b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.108
+      value: -1.126618
       objectReference: {fileID: 0}
     - target: {fileID: 4399872333982290202, guid: 5dc1590e87dbe0347a68c6a4432c631b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.752
+      value: -5.0210776
       objectReference: {fileID: 0}
     - target: {fileID: 4399872333982290202, guid: 5dc1590e87dbe0347a68c6a4432c631b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -781,7 +777,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 490035521}
   - {fileID: 49710180}
-  - {fileID: 1560621477}
   - {fileID: 707042679}
   - {fileID: 8400351941162046283}
   - {fileID: 777249220}
+  - {fileID: 7699980783112508122}
