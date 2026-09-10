@@ -7,22 +7,44 @@ public class CloudMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        bool W = false;
+        bool A = false;
+        bool S = false;
+        bool D = false;
+
         if (Input.GetKey(KeyCode.W))
         {
-            animator.SetBool("isMoving", true);
+            W = true;
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
 
-        if (!Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.A))
         {
-            animator.SetBool("isMoving", false);
+            A = true;
+            transform.Translate(Vector3.left * speed * Time.deltaTime);
         }
-        
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            S = true;
+            transform.Translate(Vector3.back * speed * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            D = true;
+            transform.Translate(Vector3.right * speed * Time.deltaTime);
+        }
+
+        animator.SetBool("W", W);
+        animator.SetBool("A", A);
+        animator.SetBool("S", S);
+        animator.SetBool("D", D);
     }
 }
