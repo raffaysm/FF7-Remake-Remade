@@ -4,15 +4,18 @@ public class CloudMovement : MonoBehaviour
 {
     Animator animator;
     public float speed = 10f;
+    Rigidbody rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        Vector3 move = Vector3.zero;
         bool W = false;
         bool A = false;
         bool S = false;
@@ -21,30 +24,33 @@ public class CloudMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             W = true;
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            move += Vector3.forward;
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             A = true;
-            transform.Translate(Vector3.left * speed * Time.deltaTime);
+            move += Vector3.left;
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             S = true;
-            transform.Translate(Vector3.back * speed * Time.deltaTime);
+            move += Vector3.back;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             D = true;
-            transform.Translate(Vector3.right * speed * Time.deltaTime);
+            move += Vector3.right;
         }
 
+        rb.MovePosition(rb.position + move.normalized * speed * Time.fixedDeltaTime);
         animator.SetBool("W", W);
         animator.SetBool("A", A);
         animator.SetBool("S", S);
         animator.SetBool("D", D);
     }
+
+
 }
