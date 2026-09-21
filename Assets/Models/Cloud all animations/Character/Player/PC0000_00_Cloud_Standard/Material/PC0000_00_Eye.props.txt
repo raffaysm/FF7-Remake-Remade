@@ -1,0 +1,99 @@
+Parent = MaterialInstanceConstant'/End/Content/GameContents/Renderer/MaterialInstance/EndMaterialInstance_Eye.EndMaterialInstance_Eye'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=0:0:Color }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Player/PC0000_00_Cloud_Standard/Texture/PC0000_00_Eye_C.PC0000_00_Eye_C'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=0:3:Normal }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Common/Eye/Texture/Common_Eye_Player_NO.Common_Eye_Player_NO'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=0:4:Normal(Inner) }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Common/Eye/Texture/Common_Eye_Player_NI.Common_Eye_Player_NI'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=0:5:Normal(Gaze) }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Common/Eye/Texture/Common_Eye_Player_NG.Common_Eye_Player_NG'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=1:0:Occlusion }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Player/PC0000_00_Cloud_Standard/Texture/PC0000_00_Eye_O.PC0000_00_Eye_O'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+    bOverride_ECustomRenderPass = false
+    bOverride_Masked = false
+    bOverride_Velocity = false
+    bOverride_bHasVertexModifier = false
+    Masked = false
+    ECustomRenderPass = false
+    Velocity = false
+    bHasVertexModifier = false
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+BlendMode = BLEND_Opaque (0)
+TwoSided = false
+OpacityMaskClipValue = 0
+TexCoordDivide[0] = {}
+CachedReferencedTextures[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+ReferencedTextureGuids[0] = {}
+QualityLevelsUsed[0] = {}
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Common_Eye_Player_NI
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = PC0000_00_Eye_O
+    }
+}

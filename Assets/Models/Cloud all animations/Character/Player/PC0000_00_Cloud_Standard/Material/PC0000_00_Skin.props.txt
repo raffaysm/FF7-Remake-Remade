@@ -1,0 +1,117 @@
+Parent = MaterialInstanceConstant'/End/Content/GameContents/Renderer/MaterialInstance/EndMaterialInstance_Skin_Detail.EndMaterialInstance_Skin_Detail'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=0:0:Color }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Player/PC0000_00_Cloud_Standard/Texture/PC0000_00_BodyA_C.PC0000_00_BodyA_C'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=0:2:Metallic/Roughness/Variant }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Player/PC0000_00_Cloud_Standard/Texture/PC0000_00_BodyA_M.PC0000_00_BodyA_M'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=0:3:Normal }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Player/PC0000_00_Cloud_Standard/Texture/PC0000_00_BodyA_N.PC0000_00_BodyA_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=0:5:DetailOpacity }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Player/PC0000_00_Cloud_Standard/Texture/PC0000_00_BodyA_B.PC0000_00_BodyA_B'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=1:0:Occlusion }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Player/PC0000_00_Cloud_Standard/Texture/PC0000_00_BodyA_O.PC0000_00_BodyA_O'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=2:0:DetailNormal:0 }
+        ParameterValue = Texture2D'/End/Content/GameContents/Character/Common/Detail/Texture/Common_Detail_Skin_N.Common_Detail_Skin_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+    bOverride_ECustomRenderPass = false
+    bOverride_Masked = false
+    bOverride_Velocity = false
+    bOverride_bHasVertexModifier = false
+    Masked = false
+    ECustomRenderPass = false
+    Velocity = false
+    bHasVertexModifier = false
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+BlendMode = BLEND_Opaque (0)
+TwoSided = false
+OpacityMaskClipValue = 0
+TexCoordDivide[0] = {}
+CachedReferencedTextures[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+ReferencedTextureGuids[0] = {}
+QualityLevelsUsed[0] = {}
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = PC0000_00_BodyA_B
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = PC0000_00_BodyA_C
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = PC0000_00_BodyA_M
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = PC0000_00_BodyA_O
+    }
+}

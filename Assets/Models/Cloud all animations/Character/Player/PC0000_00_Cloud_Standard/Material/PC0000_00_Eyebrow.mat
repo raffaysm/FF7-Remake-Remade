@@ -1,0 +1,15 @@
+Diffuse=PC0000_00_Hair_C
+Normal=PC0000_00_Hair_N
+Other[0]=PC0000_00_Hair_A
+Other[1]=PC0000_00_Hair_M
+Other[2]=PC0000_00_Hair_O
+Other[3]=000000FF
+Other[4]=000000FF_HDR
+Other[5]=000000FF_sRGB
+Other[6]=008000FF
+Other[7]=767676FF_sRGB
+Other[8]=8080FF00
+Other[9]=FF000000_BC4
+Other[10]=FF00FFFF
+Other[11]=000000FF_Cube
+Other[12]=000000FF_sRGB_Cube
