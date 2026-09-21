@@ -790,7 +790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96af92a2b88af614bbc519d4e131e87b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  scene: Game
+  scene: Assignment
 --- !u!82 &1533093898
 AudioSource:
   m_ObjectHideFlags: 0

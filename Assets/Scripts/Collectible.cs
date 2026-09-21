@@ -5,13 +5,11 @@ public class Collectible : MonoBehaviour
 {
 
     public float rotationSpeed;
-    public TextMeshProUGUI scoreText;
     public GameObject onCollectEffect;
-    public int scoreCount;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        UpdateScore();
+        
     }
 
     // Update is called once per frame
@@ -26,17 +24,8 @@ public class Collectible : MonoBehaviour
         {
             Destroy(gameObject);
             Instantiate(onCollectEffect, transform.position, transform.rotation);
-            scoreCount++;
-            UpdateScore();
+            GameManager.gm.AddScore();
         }
     }
 
-    public void UpdateScore()
-    {
-        if(scoreText != null)
-        {
-            scoreText.text = "Coins: " + scoreCount;
-        }
-        
-    }
 }
