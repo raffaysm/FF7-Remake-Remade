@@ -4,6 +4,7 @@ public class CloudMovement : MonoBehaviour
 {
     Animator animator;
     public float speed = 10f;
+    public float rotationSpeed = 100f;
     Rigidbody rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,6 +32,7 @@ public class CloudMovement : MonoBehaviour
         {
             A = true;
             move += Vector3.left;
+            transform.Rotate(Vector3.up, -rotationSpeed * Time.fixedDeltaTime);
         }
 
         if (Input.GetKey(KeyCode.S))
@@ -43,9 +45,10 @@ public class CloudMovement : MonoBehaviour
         {
             D = true;
             move += Vector3.right;
+            transform.Rotate(Vector3.up, rotationSpeed * Time.fixedDeltaTime);
         }
 
-        rb.MovePosition(rb.position + move.normalized * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + transform.TransformDirection(move.normalized) * speed * Time.fixedDeltaTime);
         animator.SetBool("W", W);
         animator.SetBool("A", A);
         animator.SetBool("S", S);
