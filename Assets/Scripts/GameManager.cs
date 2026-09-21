@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
 
     public void close()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        Application.Quit();
     }
 
     public void Resume()
