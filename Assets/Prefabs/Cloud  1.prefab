@@ -29,10 +29,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4970689134521555116}
+  - {fileID: 8881399382382292679}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4543451860530872480
@@ -74,8 +75,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74d3309fb7666514a8fea9e49426f35f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CloudMovement
-  speed: 5
-  rotationSpeed: 100
+  speed: 7
+  cameraTransform: {fileID: 0}
 --- !u!136 &4115958521861498049
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -98,7 +99,38 @@ CapsuleCollider:
   m_Radius: 0.26
   m_Height: 1.9
   m_Direction: 1
-  m_Center: {x: 0, y: 0.84, z: -0.01}
+  m_Center: {x: 0, y: 0.96, z: -0.01}
+--- !u!1 &8684632956616195480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8881399382382292679}
+  m_Layer: 0
+  m_Name: Camera Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8881399382382292679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8684632956616195480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.411, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4399872333982290202}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4859900853872525127
 PrefabInstance:
   m_ObjectHideFlags: 0

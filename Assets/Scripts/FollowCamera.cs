@@ -36,12 +36,12 @@ public class FollowCamera : MonoBehaviour
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.RotateAround(player.position, transform.right, rotationSpeed * Time.deltaTime);
+            transform.RotateAround(player.position, transform.right, -rotationSpeed * Time.deltaTime);
         }
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.RotateAround(player.position, transform.right, -rotationSpeed * Time.deltaTime);
+            transform.RotateAround(player.position, transform.right, rotationSpeed * Time.deltaTime);
         }
 
         transform.LookAt(player);

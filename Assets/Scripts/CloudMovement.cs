@@ -4,56 +4,52 @@ public class CloudMovement : MonoBehaviour
 {
     Animator animator;
     public float speed = 10f;
-    public float rotationSpeed = 100f;
+    public Transform cameraTransform;
     Rigidbody rb;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        Vector3 move = Vector3.zero;
-        bool W = false;
-        bool A = false;
-        bool S = false;
-        bool D = false;
+        bool W = Input.GetKey(KeyCode.W);
+        bool A = Input.GetKey(KeyCode.A);
+        bool S = Input.GetKey(KeyCode.S);
+        bool D = Input.GetKey(KeyCode.D);
 
-        if (Input.GetKey(KeyCode.W))
+        // get the camera's forward and right directions, flattened so up/down tilt doesn't affect movement
+        Vector3 camForward = cameraTransform.forward;
+        camForward.y = 0f;
+        camForward.Normalize();
+
+        Vector3 camRight = cameraTransform.right;
+        camRight.y = 0f;
+        camRight.Normalize();
+
+        Vector3 targetDirection = Vector3.zero;
+
+        if (W) targetDirection += camForward;
+        if (S) targetDirection -= camForward;
+        if (D) targetDirection += camRight;
+        if (A) targetDirection -= camRight;
+
+        if (targetDirection != Vector3.zero)
         {
-            W = true;
-            move += Vector3.forward;
+            targetDirection.Normalize();
+
+            // rotate the character to face that direction directly
+            transform.rotation = Quaternion.LookRotation(targetDirection);
+
+            // move the character forward in the direction it's now facing
+            rb.MovePosition(rb.position + targetDirection * speed * Time.fixedDeltaTime);
         }
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            A = true;
-            move += Vector3.left;
-            transform.Rotate(Vector3.up, -rotationSpeed * Time.fixedDeltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            S = true;
-            move += Vector3.back;
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            D = true;
-            move += Vector3.right;
-            transform.Rotate(Vector3.up, rotationSpeed * Time.fixedDeltaTime);
-        }
-
-        rb.MovePosition(rb.position + transform.TransformDirection(move.normalized) * speed * Time.fixedDeltaTime);
         animator.SetBool("W", W);
         animator.SetBool("A", A);
         animator.SetBool("S", S);
         animator.SetBool("D", D);
     }
-
-
 }
