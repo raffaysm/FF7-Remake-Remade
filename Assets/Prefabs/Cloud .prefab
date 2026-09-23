@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4399872333982290202}
   - component: {fileID: 4543451860530872480}
-  - component: {fileID: 2726587377588538175}
-  - component: {fileID: 8091195337038850370}
+  - component: {fileID: 4578517629084394270}
+  - component: {fileID: 205580591713118224}
   m_Layer: 0
   m_Name: 'Cloud '
   m_TagString: Untagged
@@ -60,9 +60,32 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!65 &2726587377588538175
+--- !u!136 &4578517629084394270
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120720967970714418}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.26
+  m_Height: 1.9
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.96, z: -0.01}
+--- !u!65 &205580591713118224
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81,21 +104,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.52, y: 1.67, z: 0.52}
-  m_Center: {x: 0, y: 0.84, z: 0}
---- !u!114 &8091195337038850370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4120720967970714418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74d3309fb7666514a8fea9e49426f35f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CloudMovement
-  speed: 10
+  m_Size: {x: 0.1, y: 0.01, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &7180347816615000228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -150,17 +160,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
       propertyPath: m_Name
-      value: Cloud
+      value: Cloud Combat
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 8868f32a60b9b464f880de257848b9b4, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2676923779304284539, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1590915117421116121}
   m_SourcePrefab: {fileID: 100100000, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
+--- !u!1 &5081168366365628895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2676923779304284539, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}
+  m_PrefabInstance: {fileID: 7180347816615000228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1590915117421116121
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5081168366365628895}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018581923, y: 0.00074893096, z: 0.0030478009}
+  m_Center: {x: -0.0068635917, y: 0.0000015641865, z: 0.00000020906059}
 --- !u!4 &7218990062152441679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6d42688bb80078348b597faaccce2ea1, type: 3}

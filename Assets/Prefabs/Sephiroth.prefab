@@ -42,15 +42,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.2063522
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.070880175
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4364395
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -83,6 +83,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
       propertyPath: m_Name
       value: sephiroth
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
