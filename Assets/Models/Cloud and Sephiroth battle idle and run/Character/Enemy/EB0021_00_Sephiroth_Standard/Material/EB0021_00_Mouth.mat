@@ -1,0 +1,10 @@
+Diffuse=Common_Mouth_Player_C
+Normal=Common_Mouth_Player_N
+Other[0]=Common_Mouth_Player_M
+Other[1]=Common_Mouth_Player_O
+Other[2]=000000FF
+Other[3]=000000FF_HDR
+Other[4]=008000FF
+Other[5]=767676FF_sRGB
+Other[6]=8080FF00
+Other[7]=FF000000_BC4

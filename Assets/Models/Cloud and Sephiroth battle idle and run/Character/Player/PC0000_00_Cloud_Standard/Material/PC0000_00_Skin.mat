@@ -1,0 +1,12 @@
+Diffuse=PC0000_00_BodyA_C
+Normal=PC0000_00_BodyA_N
+Other[0]=PC0000_00_BodyA_M
+Other[1]=PC0000_00_BodyA_B
+Other[2]=PC0000_00_BodyA_O
+Other[3]=Common_Detail_Skin_N
+Other[4]=000000FF
+Other[5]=000000FF_HDR
+Other[6]=008000FF
+Other[7]=767676FF_sRGB
+Other[8]=8080FF00
+Other[9]=FF000000_BC4
