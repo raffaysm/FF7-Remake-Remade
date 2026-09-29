@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2082355078124064036}
   - component: {fileID: 905582423871473042}
   - component: {fileID: 968249761439657827}
+  - component: {fileID: 6066426523181239966}
   m_Layer: 0
   m_Name: Sephiroth
   m_TagString: Untagged
@@ -106,6 +107,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 0.01, z: 1}
   m_Center: {x: 0, y: 0.07, z: 0}
+--- !u!114 &6066426523181239966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534472562260801759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81924008e9ae8ba49b1338b05ad56582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &4090514220872129875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -160,16 +173,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
       propertyPath: m_ApplyRootMotion
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 154041571588368819}
     - targetCorrespondingSourceObject: {fileID: 4882699887203315219, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3085843778225721484}
   m_SourcePrefab: {fileID: 100100000, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
+--- !u!1 &3748407569405272066 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
+  m_PrefabInstance: {fileID: 4090514220872129875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &154041571588368819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3748407569405272066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b741513b48b82f43ae7aaaa1c220c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!4 &4561817117006576312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}

@@ -24,7 +24,7 @@ public class Collectible : MonoBehaviour
         {
             Destroy(gameObject);
             Instantiate(onCollectEffect, transform.position, transform.rotation);
-            GameManager.gm.AddScore();
+            //GameManager.gm.AddScore();
             Debug.Log("Coin!");
         }
     }

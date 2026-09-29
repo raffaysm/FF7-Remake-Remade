@@ -5,8 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public int score = 0;
     public int hits = 0;
-    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI hitsText;
+    //public TextMeshProUGUI scoreText;
+    //public TextMeshProUGUI hitsText;
     public static GameManager gm;
     public GameObject pauseMenu;
     public GameObject gameOverMenu;
@@ -17,8 +17,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        UpdateScore();
-        UpdateHits();
+
     }
 
     // Update is called once per frame
@@ -51,32 +50,5 @@ public class GameManager : MonoBehaviour
     public void Resume()
     {
         pauseMenu.SetActive(false);
-    }
-
-    public void AddScore()
-    {
-        score++;
-        UpdateScore();
-    }
-
-    public void UpdateScore()
-    {
-        scoreText.text = "Coins: " + score;
-    }
-    public void AddHits()
-    {
-        hits++;
-        UpdateHits();
-    }
-
-    public void UpdateHits()
-    {
-        hitsText.text = "Hits: " + hits + "/5";
-        if(hits==5)
-        {
-            Debug.Log("GAME OVER!!!");
-            Time.timeScale = 0f;
-            gameOverMenu.SetActive(true);
-        }
     }
 }
