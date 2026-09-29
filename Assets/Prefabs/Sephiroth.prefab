@@ -172,6 +172,10 @@ PrefabInstance:
       value: sephiroth
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0f449513af2492c4db84e6790b6ce461, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 00e93feb77fbf564387507bee4d6d7fb, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}

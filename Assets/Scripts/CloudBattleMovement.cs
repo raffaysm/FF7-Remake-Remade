@@ -25,4 +25,9 @@ public class CloudBattleMovement : MonoBehaviour
             rb.MovePosition(newPosition);
         }
     }
+
+    public void CloudAttack()
+    {
+        animator.SetTrigger("Attack");
+    }
 }

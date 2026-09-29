@@ -10,6 +10,10 @@ public class GameManager : MonoBehaviour
     public static GameManager gm;
     public GameObject pauseMenu;
     public GameObject gameOverMenu;
+    public CloudBattleMovement battle;
+    public bool cloud = true;
+    public bool sephi = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -17,13 +21,16 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-
+        battle = FindAnyObjectByType<CloudBattleMovement>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            isPaused();
+        }
     }
     public void isPaused()
     {
@@ -50,5 +57,10 @@ public class GameManager : MonoBehaviour
     public void Resume()
     {
         pauseMenu.SetActive(false);
+    }
+
+    public void CloudAttack()
+    {
+        battle.CloudAttack();
     }
 }
