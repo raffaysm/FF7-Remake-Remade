@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class GameManager : MonoBehaviour
     public static GameManager gm;
     public GameObject pauseMenu;
     public GameObject gameOverMenu;
-    public CloudBattleMovement battle;
+    public Button attackButton;
+    public CloudBattleMovement cloudBattle;
+    public SephirothBattleMovement sephiBattle;
     public bool cloud = true;
     public bool sephi = false;
 
@@ -21,7 +24,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        battle = FindAnyObjectByType<CloudBattleMovement>();
+        cloudBattle = FindAnyObjectByType<CloudBattleMovement>();
     }
 
     // Update is called once per frame
@@ -61,6 +64,20 @@ public class GameManager : MonoBehaviour
 
     public void CloudAttack()
     {
-        battle.CloudAttack();
+        cloudBattle.CloudAttack();
+    }
+
+    public void Combat()
+    {
+        if (cloud)
+        {
+            attackButton.interactable = true;
+        }
+
+        if (sephi)
+        {
+            attackButton.interactable = false;
+            sephiBattle.SephiAttack();
+        }
     }
 }
