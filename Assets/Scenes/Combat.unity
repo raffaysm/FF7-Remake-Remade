@@ -540,6 +540,10 @@ PrefabInstance:
       propertyPath: distance
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2366231972687410269, guid: 5dc1590e87dbe0347a68c6a4432c631b, type: 3}
+      propertyPath: attackButton
+      value: 
+      objectReference: {fileID: 192498032}
     - target: {fileID: 4120720967970714418, guid: 5dc1590e87dbe0347a68c6a4432c631b, type: 3}
       propertyPath: m_Name
       value: Cloud Combat

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class CloudBattleMovement : MonoBehaviour
@@ -7,6 +8,7 @@ public class CloudBattleMovement : MonoBehaviour
     Animator animator;
     Rigidbody rb;
     GameManager gm;
+    public Button attackButton;
 
     public Transform enemy;
     public Transform cloud;
@@ -35,6 +37,7 @@ public class CloudBattleMovement : MonoBehaviour
 
     public void CloudAttack()
     {
+        attackButton.interactable = false;
         Vector3 direction = (enemy.position - cloud.position).normalized;
         cloud.position = enemy.position - direction * distance;
         animator.SetTrigger("Attack");
