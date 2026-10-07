@@ -9,10 +9,15 @@ public class CloudBattleMovement : MonoBehaviour
     Rigidbody rb;
     GameManager gm;
     public Button attackButton;
-
+    public Button magicButton;
+    public Button limitButton;
     public Transform enemy;
     public Transform cloud;
     public float distance = 2f;
+    private int damage = 100;
+    private int heal = 300;
+    private int limitDamage = 500;
+    private int mpCost = 10;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -41,9 +46,40 @@ public class CloudBattleMovement : MonoBehaviour
         Vector3 direction = (enemy.position - cloud.position).normalized;
         cloud.position = enemy.position - direction * distance;
         animator.SetTrigger("Attack");
-        Invoke("MoveBack", 2.5f);
+        WaitForSeconds(2.5f);
+        Invoke("MoveBack");
     }
 
+    public void CloudMagic()
+    {
+        if(gm.cloudMP >= mpCost)
+        {
+            magicButton.interactable = false;
+            animator.SetTrigger("Magic");
+            gm.cloudHP = gm.cloudHP + heal;
+            gm.cloudMP = gm.cloudMP - mpCost;
+            StartCoroutine(Turn());
+        }
+    }
+
+    public void CloudLimit()
+    {
+        if(gm.cloudDamageTaken >= 1000)
+        {
+            limitButton.interactable = false;
+            animator.SetTrigger("Limit");
+            Invoke("Hit", 2.541f);
+        }
+    }
+
+    void Hit()
+    {
+        Vector3 direction = (enemy.position - cloud.position).normalized;
+        cloud.position = enemy.position - direction * distance;
+        WaitForSeconds(5.9f);
+        gm.sephiHP = gm.sephiHP - limitDamage;
+        Invoke("MoveBack"); // total animation time 8.542
+    }
     void MoveBack()
     {
         cloud.localPosition = Vector3.zero;
@@ -53,7 +89,6 @@ public class CloudBattleMovement : MonoBehaviour
     IEnumerator Turn()
     {
         yield return new WaitForSeconds(1.5f);
-        Debug.Log("Cloud done");
         gm.cloud = false;
         gm.sephi = true;
         gm.Combat();

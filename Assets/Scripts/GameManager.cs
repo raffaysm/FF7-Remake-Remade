@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,10 +13,24 @@ public class GameManager : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject gameOverMenu;
     public Button attackButton;
+    public Button magicButton;
+    public Button limitButton;
+    public TMP_Text HP;
+    public TMP_Text MP;
+    public TMP_Text Limit;
     public CloudBattleMovement cloudBattle;
     public SephirothBattleMovement sephiBattle;
     public bool cloud = true;
     public bool sephi = false;
+    private int maxCloudHP = 777;
+    public int cloudHP = 777;
+    public int cloudMP = 77;
+
+    public int limitRequirement = 1000;
+    public int cloudLimit = (int)(((float)cloudDamageTaken / limitRequirement) * 100);
+    public int cloudDamageTaken = 0;
+    public int sephiHP = 1000;
+    public int sephiMP = 100;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -33,6 +48,48 @@ public class GameManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             isPaused();
+        }
+
+        // minimum HP to 0
+        if(cloudHP >= 0)
+        {
+            HP.text = cloudHP.ToString();
+        }
+        else
+        {
+            HP.text = "0";
+        }
+
+        // No HP overcapping
+        if(cloudHP > maxCloudHP)
+        {
+            cloudHP = maxCloudHP;
+        }
+
+        // Minimum MP to 0
+        if(cloudMP >= 0)
+        {
+            MP.text = cloudMP.ToString();
+        }
+        else
+        {
+            MP.text = "0";
+        }
+
+        //No Limit Overcapping
+        if(Limit.text <= 100)
+        {
+            Limit.text = cloudLimit.ToString() + "%";
+        }
+        else
+        {
+            Limit.text = "100%";
+        }
+
+        // Game Over
+        if(cloudHP <= 0)
+        {
+            gameOverMenu.SetActive(true);
         }
     }
     public void isPaused()
@@ -67,16 +124,30 @@ public class GameManager : MonoBehaviour
         cloudBattle.CloudAttack();
     }
 
+    public void CloudMagic()
+    {
+        cloudBattle.CloudMagic();
+    }
+
+    public void CloudLimit()
+    {
+        cloudBattle.CloudLimit();
+        Debug.Log("call");
+    }
     public void Combat()
     {
         if (cloud)
         {
             attackButton.interactable = true;
+            magicButton.interactable = true;
+            limitButton.interactable = true;
         }
 
         if (sephi)
         {
             attackButton.interactable = false;
+            magicButton.interactable = false;
+            limitButton.interactable = false;
             sephiBattle.SephiAttack();
         }
     }

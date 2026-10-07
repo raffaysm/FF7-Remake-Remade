@@ -11,6 +11,7 @@ public class SephirothBattleMovement : MonoBehaviour
     public Transform enemy;
     public Transform sephi;
     public float distance = 2f;
+    private int damage = 150;
 
     void Start()
     {
@@ -47,6 +48,8 @@ public class SephirothBattleMovement : MonoBehaviour
     }
     void MoveBack()
     {
+        gm.cloudHP = gm.cloudHP - damage;
+        gm.cloudDamageTaken = gm.cloudDamageTaken + damage;
         sephi.localPosition = Vector3.zero;
         StartCoroutine(Turn());
     }
@@ -54,7 +57,6 @@ public class SephirothBattleMovement : MonoBehaviour
     IEnumerator Turn()
     {
         yield return new WaitForSeconds(1.5f);
-        Debug.Log("Sephi done");
         gm.cloud = true;
         gm.sephi = false;
         gm.Combat();
