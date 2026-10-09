@@ -2859,12 +2859,15 @@ MonoBehaviour:
   limitButton: {fileID: 1286892600}
   HP: {fileID: 1123624235}
   MP: {fileID: 1544737603}
+  Limit: {fileID: 1923018307}
   cloudBattle: {fileID: 1390917008}
   sephiBattle: {fileID: 1120593749}
   cloud: 1
   sephi: 0
   cloudHP: 777
   cloudMP: 77
+  limitRequirement: 1000
+  cloudLimit: 0
   cloudDamageTaken: 0
   sephiHP: 1000
   sephiMP: 100

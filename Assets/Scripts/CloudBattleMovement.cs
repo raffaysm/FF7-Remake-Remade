@@ -46,8 +46,7 @@ public class CloudBattleMovement : MonoBehaviour
         Vector3 direction = (enemy.position - cloud.position).normalized;
         cloud.position = enemy.position - direction * distance;
         animator.SetTrigger("Attack");
-        WaitForSeconds(2.5f);
-        Invoke("MoveBack");
+        Invoke("MoveBack", 2.5f);
     }
 
     public void CloudMagic()
@@ -68,17 +67,17 @@ public class CloudBattleMovement : MonoBehaviour
         {
             limitButton.interactable = false;
             animator.SetTrigger("Limit");
-            Invoke("Hit", 2.541f);
+            StartCoroutine(Hit());
         }
     }
 
-    void Hit()
+    IEnumerator Hit()
     {
         Vector3 direction = (enemy.position - cloud.position).normalized;
         cloud.position = enemy.position - direction * distance;
-        WaitForSeconds(5.9f);
+        yield return new WaitForSeconds(5.9f);
         gm.sephiHP = gm.sephiHP - limitDamage;
-        Invoke("MoveBack"); // total animation time 8.542
+        MoveBack(); // total animation time 8.542
     }
     void MoveBack()
     {

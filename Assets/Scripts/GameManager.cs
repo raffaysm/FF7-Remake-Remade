@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     public int cloudMP = 77;
 
     public int limitRequirement = 1000;
-    public int cloudLimit = (int)(((float)cloudDamageTaken / limitRequirement) * 100);
+    public int cloudLimit = 0;
     public int cloudDamageTaken = 0;
     public int sephiHP = 1000;
     public int sephiMP = 100;
@@ -77,7 +77,9 @@ public class GameManager : MonoBehaviour
         }
 
         //No Limit Overcapping
-        if(Limit.text <= 100)
+        cloudLimit = (int)(((float)cloudDamageTaken / limitRequirement) * 100);
+
+        if(cloudLimit <= 100)
         {
             Limit.text = cloudLimit.ToString() + "%";
         }
